@@ -1,0 +1,74 @@
+;*********************************************
+	; Memoria FASES
+;*********************************************
+
+;-------------- Caracteristicas --------------
+	; Profundidad de memoria = 256 palabras
+	; Ancho de memoria = 5 bits
+	; Codificacion: 
+		;0=> Jugador vista frontal
+		;1=> Jugador vista trasera
+		;2=> Jugador vista lateral derecha
+		;3=> Jugador vista lateral izquierda
+		;4=> Fondo
+		;5=> Casilla objetivo
+		;6=> Caja
+		;7=> Muro
+		;8=> Caja con objetivo
+		;9=> Hueco
+		;10=> Hueco con caja
+		;11=> Hueco con caja + Caja encima
+		;12=> Hueco con caja + Player frontal
+		;13=> Hueco con caja + Player trasera
+		;14=> Hueco con caja + Player derecha
+		;15=> Hueco con caja + Player izquierda
+		;16=> Teletransporte
+		;17=> Jugador vista frontal + Objetivo
+		;18=> Jugador vista trasera + Objetivo
+		;19=> Jugador vista lateral derecha + Objetivo
+		;20=> Jugador vista lateral izquierda + Objetivo
+		;21=> Teletransporte + Player
+
+memory_initialization_radix=10;
+memory_initialization_vector=
+7,7,7,7,7,7,7,7,
+7,7,4,4,4,4,7,7,
+7,4,4,6,4,4,4,7,
+7,4,6,7,5,7,4,7,
+7,5,4,4,7,0,4,7,
+7,4,7,6,4,4,4,7,
+7,4,4,4,5,7,7,7,
+7,7,7,7,7,7,7,7,
+
+7,7,7,7,7,7,7,7,
+7,4,4,7,7,4,4,7,
+7,4,6,4,4,4,16,7,
+7,4,4,5,7,7,7,7,
+7,7,7,7,5,4,4,7,
+7,16,4,4,4,6,4,7,
+7,4,4,7,7,4,0,7,
+7,7,7,7,7,7,7,7,
+
+7,7,7,7,7,7,7,7,
+7,7,4,4,4,4,7,7,
+7,4,4,6,4,4,4,7,
+7,4,6,7,7,4,4,7,
+7,4,4,0,7,4,4,7,
+7,7,7,7,7,4,4,7,
+7,5,9,6,9,4,4,7,
+7,7,7,7,7,7,7,7,
+
+7,7,7,7,7,7,7,7,
+7,4,4,4,6,4,5,7,
+7,7,4,9,7,7,7,7,
+7,7,7,6,4,6,16,7,
+7,7,16,0,6,4,7,7,
+7,4,6,9,9,7,7,7,
+7,4,4,4,4,4,5,7,
+7,7,7,7,7,7,7,7,
+
+
+
+
+
+
