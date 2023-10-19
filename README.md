@@ -6,8 +6,8 @@ Proyecto desarrollado en asignatura de Sistemas Electónicos / FPGA. Trabajo de 
 Juego retro clásico de Sokoban implementado en lenguaje VHDL. 
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/aglora/VHDL_GameSokoban/blob/main/imgs/1.jpg" width="400" />
-  <img src="https://github.com/aglora/VHDL_GameSokoban/blob/main/imgs/2.jpg" width="400" />
+  <img src="https://github.com/aglora/VHDL_GameSokoban/blob/main/imgs/1.png" width="400" />
+  <img src="https://github.com/aglora/VHDL_GameSokoban/blob/main/imgs/2.png" width="400" />
 </div>
 
 Demostración de interfaz desarrollada, conexión de placa FPGA a pantalla vía VGA:
