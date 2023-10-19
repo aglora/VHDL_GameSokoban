@@ -1,5 +1,8 @@
 # VHDL_GameSokoban
-Proyecto desarrollado en asignatura de Sistemas Electónicos / FPGA. Trabajo de diseño hardware y síntesis 
+Proyecto desarrollado en asignatura de Sistemas Electónicos / FPGA. Trabajo de diseño hardware y síntesis.
+
+- **Placa usada**: Basys 3 de Digilent
+- **Software usado**: Xilinx Vivado Design Suite
 
 <div style="display: flex; flex-direction: row;">
   <img src="https://github.com/aglora/VHDL_GameSokoban/blob/main/imgs/diligentBoard.png" width="500" />
